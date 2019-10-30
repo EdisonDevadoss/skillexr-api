@@ -3,7 +3,7 @@
 module.exports = {
   development: {
     client: 'pg',
-    connection: 'postgres://demo:edison@localhost:5432/test-crud',
+    connection: 'postgres://demo:edison@localhost:5432/skillexr-api',
     pool: { min: 0, max: 7 },
     migrations: {
       tableName: 'knex_migrations',
